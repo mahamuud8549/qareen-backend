@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <title>La-talin | Qareen Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Qareen <span>Online</span></a>
+            <div class="nav-links">
+                <a href="index.html">Hoyga</a>
+                <a href="adeegyada.html">Adeegyada</a>
+                <a href="qareennada.html">Raadi Qareen</a>
+                <a href="xiriir.html" class="active">La-talin</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="booking-section" style="padding-top: 120px; min-height: 100vh;">
+        <div class="container">
+            <div class="booking-form-wrapper" style="max-width: 600px; margin: 0 auto;">
+                <h2 style="text-align: center; margin-bottom: 20px; color: white;">Codsashada La-talin</h2>
+                <form class="booking-form">
+                    <div class="form-group">
+                        <label>Magacaaga</label>
+                        <input type="text" id="magaca" placeholder="Tusaale: Cali Axmed" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Nooca Dacwadda</label>
+                        <select id="dacwadda" required>
+                            <option value="criminal">Xaquuqda Ciqaabta</option>
+                            <option value="family">Sharciga Qoyska</option>
+                            <option value="business">Khilaafaadka Ganacsiga</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Farriintaada</label>
+                        <textarea id="farriinta" rows="4" placeholder="Sharaxaad kooban..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" style="width: 100%;">Gudbi Codsiga</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
